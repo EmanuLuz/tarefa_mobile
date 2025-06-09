@@ -1,10 +1,6 @@
-let contador = 0
+let contador = 200;
 
-while(contador <= 100){
-   
-    if(contador % 2 == 0){
-        console.log( + contador);
-
-    }
-    contador ++
+while(contador <= 400){
+  console.log( + contador);
+  contador = contador + 1;
 }
